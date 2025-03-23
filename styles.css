@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2024/02/18/13/13/ai-generated-8581182_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+}
+h2 {
+    color:brown; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 20px; 
+}
+.input-section {
+    margin-bottom: 20px;
+}
+input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px;
+    background-color: #004C75;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #002F4B;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    background: rgba(165, 42, 42, 0.5);
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+li button {
+    background: red;
+    padding: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
